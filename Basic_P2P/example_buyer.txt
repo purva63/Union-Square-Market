@@ -1,0 +1,43 @@
+INFO:root:2022-10-20 02:55:56.480Peer0 uri=PYRO:obj_7643746f8c3840d894510e37148aa4b9@127.0.0.1:5000
+INFO:root:2022-10-20 02:55:58.610Peer1 uri=PYRO:obj_dc2384ca276842769524b0e5ee36564c@127.0.0.1:5001
+INFO:root:Before req loop 1
+INFO:root:1 - Number of requests created1
+INFO:root:1 - Number of success0
+INFO:root:2022-10-20 02:56:00.552Peer2 uri=PYRO:obj_aa12041be1a54f12b4e8ef92f26b2709@127.0.0.1:5002
+INFO:root:2022-10-20 02:56:02.529Peer3 uri=PYRO:obj_9f556a3a243846239638e9981df04bdc@127.0.0.1:5003
+INFO:root:2022-10-20 02:56:04.653Peer4 uri=PYRO:obj_a272ac8fef7d4c87be1cf99b8eb673bd@127.0.0.1:5004
+INFO:root:b94a7ce6-5022-11ed-924a-00f48da29f84 :Buyer in floodLookup for Peer1 :[]:['Peer0', 'Peer2']
+INFO:root:Buyer 1: Now trying for Peer0
+INFO:root:1 - Number of requests created2
+INFO:root:1 - Number of success0
+INFO:root:2022-10-20 02:56:05.625 -b94a7ce6-5022-11ed-924a-00f48da29f84 Lookup for boar sending from Peer1 to Peer0:['Peer1']
+INFO:root:2022-10-20 02:56:06.568Peer5 uri=PYRO:obj_0568cc1d5a4d45df940c9c71c2aefdd8@127.0.0.1:5005
+INFO:root:got some results:[]
+INFO:root:b94a7ce6-5022-11ed-924a-00f48da29f84 :Item to buy:boar Sell:salt hop count:1
+INFO:root:b94a7ce6-5022-11ed-924a-00f48da29f84 :lst top is parent in seller :['Peer1']:Peer1
+INFO:root:2022-10-20 02:56:10.193 -b94a7ce6-5022-11ed-924a-00f48da29f84 Lookup for boar sending from Peer0 to Peer5:['Peer1', 'Peer0']
+INFO:root:bd7882cb-5022-11ed-a1d3-00f48da29f84 :Buyer in floodLookup for Peer1 :[]:['Peer0', 'Peer2']
+INFO:root:1 - Number of requests created3
+INFO:root:Buyer 1: Now trying for Peer0
+INFO:root:1 - Number of success0
+INFO:root:2022-10-20 02:56:12.630 -bd7882cb-5022-11ed-a1d3-00f48da29f84 Lookup for salt sending from Peer1 to Peer0:['Peer1']
+INFO:root:b94a7ce6-5022-11ed-924a-00f48da29f84 :Item to buy:boar Sell:salt hop count:0
+INFO:root:b94a7ce6-5022-11ed-924a-00f48da29f84 :5 has hop count0
+INFO:root:Buyer 1: Now trying for Peer2
+INFO:root:2022-10-20 02:56:14.723 -b94a7ce6-5022-11ed-924a-00f48da29f84 Lookup for boar sending from Peer1 to Peer2:['Peer1']
+INFO:root:Buyer 1: Now trying for Peer2
+INFO:root:2022-10-20 02:56:17.159 -bd7882cb-5022-11ed-a1d3-00f48da29f84 Lookup for salt sending from Peer1 to Peer2:['Peer1']
+INFO:root:got some results:[]
+INFO:root:b94a7ce6-5022-11ed-924a-00f48da29f84 :Item to buy:boar Sell:fish hop count:1
+INFO:root:b94a7ce6-5022-11ed-924a-00f48da29f84 :lst top is parent in seller :['Peer1']:Peer1
+INFO:root:2022-10-20 02:56:19.246 -b94a7ce6-5022-11ed-924a-00f48da29f84 Lookup for boar sending from Peer2 to Peer3:['Peer1', 'Peer2']
+INFO:root:c1a58f8c-5022-11ed-85f6-00f48da29f84 :Buyer in floodLookup for Peer1 :[]:['Peer0', 'Peer2']
+INFO:root:1 - Number of requests created4
+INFO:root:1 - Number of success0
+INFO:root:Buyer 1: Now trying for Peer0
+INFO:root:2022-10-20 02:56:19.637 -c1a58f8c-5022-11ed-85f6-00f48da29f84 Lookup for fish sending from Peer1 to Peer0:['Peer1']
+INFO:root:bd7882cb-5022-11ed-a1d3-00f48da29f84 :Item to buy:salt Sell:fish hop count:1
+INFO:root:bd7882cb-5022-11ed-a1d3-00f48da29f84 :lst top is parent in seller :['Peer1']:Peer1
+INFO:root:2022-10-20 02:56:21.718 -bd7882cb-5022-11ed-a1d3-00f48da29f84 Lookup for salt sending from Peer2 to Peer3:['Peer1', 'Peer2']
+INFO:root:bd7882cb-5022-11ed-a1d3-00f48da29f84 :Item to buy:salt Sell:salt hop count:1
+INFO:root:2022-10-20 02:56:21.719 -bd7882cb-5022-11ed-a1d3-00f48da29f84 Reply sending from: Peer0to Peer1:[]

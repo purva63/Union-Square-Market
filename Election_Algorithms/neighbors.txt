@@ -1,0 +1,6 @@
+0,Node0,seller,127.0.0.1,5000,Peer0
+1,Node1,buyer,127.0.0.1,5001,Peer1
+2,Node2,buyer,127.0.0.1,5002,Peer2
+3,Node3,seller,127.0.0.1,5003,Peer3
+4,Node4,buyer_seller,127.0.0.1,5004,Peer4
+5,Node5,seller,127.0.0.1,5005,Peer5
